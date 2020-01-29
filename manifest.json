@@ -1,0 +1,12 @@
+{
+    "domain": "vlc_remote",
+    "name": "VLC Remote",
+    "documentation": "https://github.com/colemamd/vlc-remote",
+    "requirements": [
+        "xmltodict==0.10.2"
+    ],
+    "dependencies": [],
+    "codeowners": [
+        "@colemamd"
+    ]
+}
