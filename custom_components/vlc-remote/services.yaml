@@ -1,0 +1,16 @@
+call_method:
+  description: Call a custom VLC HTTP API.
+  mute_volume:
+    description: Mutes the volume on the VLC media player.
+  set_volume_level:
+    description: Sets the volume level on the VLC media player.
+    fields:
+      value:
+        description: Value, between 0 - 1, to set the volume to.
+        example: 0.5
+  media_play:
+    description: Sends play command to the VLC media player.
+  media_pause:
+    description: Send pause command to the VLC media player.
+  media_stop:
+    description: Send stop command to the VLC media player.
